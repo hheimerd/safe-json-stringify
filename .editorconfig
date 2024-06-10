@@ -1,0 +1,10 @@
+root = true
+
+[*.ts]
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+ij_typescript_spaces_within_imports = true
+ij_typescript_force_semicolon_style = true

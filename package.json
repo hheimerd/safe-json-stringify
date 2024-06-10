@@ -1,0 +1,29 @@
+{
+  "name": "@hheimerd/safe-json-stringify",
+  "version": "1.0.1",
+  "description": "JSON.stringify with circular reference resolver",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [
+    "JSON",
+    "Serialization",
+    "Circular"
+  ],
+  "author": "hheimerd",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "vitest": "1.6.0"
+  }
+}
