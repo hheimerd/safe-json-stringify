@@ -1,4 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/@hheimerd/safe-json-stringify.svg)](https://www.npmjs.com/package/@hheimerd/safe-json-stringify)
+
 # Safe JSON Stringify
+
 
 A TypeScript utility for safely serializing objects to JSON, handling circular references gracefully.
 
