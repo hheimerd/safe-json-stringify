@@ -1,6 +1,6 @@
 {
   "name": "@hheimerd/safe-json-stringify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON.stringify with circular reference resolver",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -21,6 +21,11 @@
   "license": "MIT",
   "dependencies": {
     "typescript": "5.4.5"
+  },
+  "homepage": "https://github.com/hheimerd/safe-json-stringify#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hheimerd/safe-json-stringify"
   },
   "devDependencies": {
     "tsup": "^8.1.0",
