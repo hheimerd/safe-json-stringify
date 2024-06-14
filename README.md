@@ -14,13 +14,13 @@ Installation
 To install the package, you can use npm or yarn:
 
 ```sh
-npm install safe-json-stringify
+npm install @hheimerd/safe-json-stringify
 ```
 
 or
 
 ```sh
-yarn add safe-json-stringify
+yarn add @hheimerd/safe-json-stringify
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ yarn add safe-json-stringify
 Import the safeJsonStringify function into your project and use it to serialize objects to JSON:
 
 ```typescript
-import {safeJsonStringify} from 'safe-json-stringify';
+import {safeJsonStringify} from '@hheimerd/safe-json-stringify';
 
 const obj = {
     name: 'John',
